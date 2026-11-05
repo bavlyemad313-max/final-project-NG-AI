@@ -10,7 +10,8 @@
 ---
 
 ## 🌐 Live Web Application & Demo
-- **Live Streamlit App:** `https://your-clv-engine.streamlit.app` *(Deployable to Streamlit Community Cloud or Hugging Face Spaces)*
+- **Live Streamlit App:** `https://final-project-ng-ai.streamlit.app` *(Deployable on Streamlit Community Cloud)*
+- **GitHub Repository:** `https://github.com/bavlyemad313-max/final-project-NG-AI`
 - **Demo Preview:**
   - **Tab 1: Executive KPI Command Center:** Total revenue, segment distribution, and £620K+ Revenue at Risk.
   - **Tab 2: Interactive 2D PCA Map:** Visual clustering of customer RFM feature space.
@@ -107,8 +108,8 @@ ML_Project/
 
 ### 1. Clone the repository and install requirements:
 ```bash
-git clone https://github.com/your-username/retail-clv-segmentation.git
-cd retail-clv-segmentation
+git clone https://github.com/bavlyemad313-max/final-project-NG-AI.git
+cd final-project-NG-AI
 pip install -r requirements.txt
 ```
 
@@ -125,29 +126,34 @@ streamlit run app.py
 ---
 
 ## 📄 CV Bullet Point
-> *Built an end-to-end customer segmentation and lifetime-value prediction engine on ~1.06M retail transactions combining K-Means clustering, PCA, and Gradient Boosting regression (cutting prediction error by £294 vs. baseline); deployed as a live interactive Streamlit marketing dashboard.*
+> *Built an end-to-end customer segmentation and lifetime-value prediction engine on ~1.06M retail transactions combining K-Means clustering, PCA, and Two-Stage Gradient Boosting regression (73.4% purchase accuracy, cutting CLV prediction error by 29.1% vs. baseline); deployed as a live interactive Streamlit marketing dashboard.*
 
 ---
 
 ## 📱 LinkedIn Post Draft
 ```markdown
-🚀 Excited to share my latest Applied Machine Learning project: A Customer Lifetime Value (CLV) & Behavioral Segmentation Engine!
+🚀 Excited to share my graduation project from the Machine Learning Diploma at NextGen Institute: An End-to-End Customer Lifetime Value (CLV) & Behavioral Segmentation Engine!
 
 💡 The Problem: 
 E-commerce and retail brands often treat all customers the same—wasting margin on high-intent buyers while failing to retain lapsed VIPs.
 
 🛠️ What We Built:
-• Processed ~1.06M real transactions from the UCI Online Retail II dataset.
+• Processed ~1.06M real retail transactions from the UCI Online Retail II dataset.
 • Enforced strict temporal cut-off validation to guarantee ZERO data leakage between past behavior and forward 90-day spend.
 • Combined K-Means clustering & PCA to categorize 5,200+ customers into 4 actionable personas (Champions, Loyalists, At-Risk, Hibernating).
-• Trained & tuned Ridge, Random Forest, and Gradient Boosting regressors to predict forward 90-day spend (cutting prediction MAE by £294 vs. baseline).
-• Shipped an interactive Streamlit web dashboard with a real-time customer predictor and a marketing campaign ROI simulator.
+• Built a Two-Stage ML Architecture:
+  1. Stage 1 (Classification): Predicting 90-day purchase propensity with 73.4% Accuracy and 0.8048 ROC-AUC.
+  2. Stage 2 (Regression): Predicting monetary spend, reducing test prediction error (MAE) by 29.1% (£277.10 saved per customer).
+• Discovered over £620,000 in "Revenue at Risk" among lapsed customers and shipped an interactive marketing campaign ROI simulator.
+• Deployed the complete pipeline as a live Streamlit web application.
 
 🔍 Key Takeaway: 
-Evaluating models on business terms matters more than raw accuracy. Our simulator revealed £620K+ in "Revenue at Risk" among lapsed customers, where a targeted 12% recovery campaign generates >400% ROI.
+Evaluating models on business terms matters more than raw accuracy. Translating machine learning into actionable financial metrics (like Revenue at Risk and Campaign ROI) is what truly delivers business value.
 
-Try the live app: [Insert Streamlit Link]
-Explore the GitHub repo: [Insert GitHub Link]
+🔗 Try the Live App: https://final-project-ng-ai.streamlit.app
+💻 GitHub Repository: https://github.com/bavlyemad313-max/final-project-NG-AI
 
-#MachineLearning #DataScience #CustomerAnalytics #Python #Streamlit #Portfolio
+Special thanks to NextGen Institute and our mentors for the continuous support! 💜
+
+#MachineLearning #DataScience #CustomerAnalytics #Python #Streamlit #NextGenInstitute #Portfolio #AI
 ```
