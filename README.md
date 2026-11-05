@@ -150,7 +150,7 @@ E-commerce and retail brands often treat all customers the same—wasting margin
 🔍 Key Takeaway: 
 Evaluating models on business terms matters more than raw accuracy. Translating machine learning into actionable financial metrics (like Revenue at Risk and Campaign ROI) is what truly delivers business value.
 
-🔗 Try the Live App: https://final-project-ng-ai.streamlit.app
+🔗 Try the Live App: https://final-project-ng-ai-hyxfn77pd6m9ong84rkyy2.streamlit.app/
 💻 GitHub Repository: https://github.com/bavlyemad313-max/final-project-NG-AI
 
 Special thanks to NextGen Institute and our mentors for the continuous support! 💜
